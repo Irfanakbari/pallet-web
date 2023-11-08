@@ -1,4 +1,4 @@
-export default function DeleteModal2({data, setCloseModal, action}) {
+export default function DeleteModal2({data, setCloseModal, action}:{data:any, setCloseModal:any, action:any}) {
   return(
       <div className={`fixed bg-black bg-opacity-20 h-full flex items-center justify-center top-0 left-0 z-[5000] w-full text-center overflow-y-auto overflow-x-hidden outline-none`}>
         <div className={`w-1/4 rounded bg-white`}>
@@ -8,7 +8,7 @@ export default function DeleteModal2({data, setCloseModal, action}) {
           <div className={`mt-6 mb-6`}>
                                 <span className={`text-sm`}>
                                     Yakin Hapus Data {
-                                  data.map(d=>(
+                                  data.map((d:any)=>(
                                     d.kode+ ', '
                                   ))
                                 }?
