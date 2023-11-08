@@ -251,7 +251,7 @@ export default function Part() {
     <>
       <div className={`bg-white h-full flex flex-col`}>
         {modal && (
-          <AddModalLayout close={() => setModal(false)} onSubmit={handleSubmit(submitData)} reset={reset}
+          <AddModalLayout close={() => setModal(false)} onSubmit={handleSubmit(submitData)} 
                           register={register} vehicles={data.dataVehicle}/>)}
 
         <div className="w-full bg-base py-0.5 px-1 text-white flex flex-row">

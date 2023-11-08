@@ -222,7 +222,7 @@ export default function Customer() {
     <>
       <div className={`bg-white h-full flex flex-col`}>
         {modal && (
-          <AddModalLayout close={() => setModal(false)} onSubmit={handleSubmit(submitData)} reset={reset}
+          <AddModalLayout close={() => setModal(false)} onSubmit={handleSubmit(submitData)}
                           register={register}/>)}
 
         <div className="w-full bg-base py-0.5 px-1 text-white flex flex-row">

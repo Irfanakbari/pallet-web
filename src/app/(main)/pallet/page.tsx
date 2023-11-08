@@ -465,7 +465,7 @@ export default function Pallet() {
     <>
       <div className={`bg-white h-full flex flex-col`}>
         {modal && (
-          <AddModalLayout close={() => setModal(false)} onSubmit={handleSubmit(submitData)} reset={reset}
+          <AddModalLayout close={() => setModal(false)} onSubmit={handleSubmit(submitData)}
                           register={register} parts={data.dataPart}/>)}
         {modalDelete && (
           <DeleteModal2 data={selected} setCloseModal={setModalDelete} action={handleMultiDelete}/>)}
