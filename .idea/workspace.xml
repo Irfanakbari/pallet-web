@@ -4,108 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69a0a69f-6a97-4ceb-bab7-ddabc764d4f1" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pallet-frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(block)/block/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(block)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/customer/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/customer/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/customer/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/delivery/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/delivery/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/delivery/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/department/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/department/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/department/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/destinasi/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/destinasi/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/destinasi/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/history/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/history/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/history/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/lapso/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/lapso/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/lapso/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/maintenance/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/maintenance/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/maintenance/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/pallet/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/pallet/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/pallet/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/part/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/part/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/part/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/stockopname/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/stockopname/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/stockopname/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/stok/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/stok/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/stok/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/vehicle/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/vehicle/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(main)/vehicle/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/auth/logout/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Chart/GroupBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Chart/PieBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Head/HeadTitle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Layout/MainLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/LoadingSpin.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Menu/MainMenu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Modal/AddModalLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Modal/DetailPalletSlow.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Laporan/Maintenance/PrintLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Laporan/Stok/PrintLayout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Customer/AddModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Customer/EditCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Department/AddModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Department/EditCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Destination/AddModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Destination/EditCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Pallet/AddModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Pallet/DeleteModal2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Pallet/EditCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Pallet/Print/LabelComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Pallet/Print/PrintAll.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Part/AddModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Part/EditCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/StockOpname/AddModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/StockOpname/EditCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Vehicle/AddModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Pages/Master/Vehicle/EditCell.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/components/Toast.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/context/Tab/TabStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/context/Tab/useStore.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/context/client-provider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/const/menu.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/AntdRegistry.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/authOption.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/axios.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/hooks/useAxiosAuth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/hooks/useRefreshToken.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/role.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/next-auth.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    <list default="true" id="69a0a69f-6a97-4ceb-bab7-ddabc764d4f1" name="Changes" comment="update login flow, silent login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(main)/lapso/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(main)/lapso/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(main)/maintenance/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(main)/maintenance/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/authOption.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/authOption.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,8 +115,61 @@
       <workItem from="1699240474597" duration="7459000" />
       <workItem from="1699319560321" duration="18554000" />
       <workItem from="1699428892166" duration="45000" />
-      <workItem from="1699428983835" duration="3543000" />
+      <workItem from="1699428983835" duration="4627000" />
+      <workItem from="1699437087943" duration="86000" />
+      <workItem from="1699437382311" duration="4736000" />
+      <workItem from="1699497197241" duration="11000" />
+      <workItem from="1699873621680" duration="5323000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1699434908213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699434908213</updated>
+    </task>
+    <task id="LOCAL-00002" summary="delete delivery">
+      <option name="closed" value="true" />
+      <created>1699437469588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699437469588</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix tanda baca">
+      <option name="closed" value="true" />
+      <created>1699441818098</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699441818098</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix imports">
+      <option name="closed" value="true" />
+      <created>1699442225612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699442225613</updated>
+    </task>
+    <task id="LOCAL-00005" summary="masalah tipe data variabel">
+      <option name="closed" value="true" />
+      <created>1699443346599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699443346599</updated>
+    </task>
+    <task id="LOCAL-00006" summary="remove toatstify">
+      <option name="closed" value="true" />
+      <created>1699443527941</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699443527941</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +177,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="delete delivery" />
+    <MESSAGE value="fix tanda baca" />
+    <MESSAGE value="fix imports" />
+    <MESSAGE value="masalah tipe data variabel" />
+    <MESSAGE value="remove toatstify" />
+    <MESSAGE value="update login flow, silent login" />
+    <option name="LAST_COMMIT_MESSAGE" value="update login flow, silent login" />
   </component>
 </project>

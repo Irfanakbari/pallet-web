@@ -83,7 +83,7 @@ export default function Maintenance() {
     {
       title: 'Customer',
       dataIndex: 'customer',
-      sorter: (a:any, b:any) => a.customer.localeCompare(b.customer),
+      sorter: (a:any, b:any) => a['partEntity']['vehicleEntity'].customer.localeCompare(b['partEntity']['vehicleEntity'].customer),
       filters: data.dataCustomer.map((e:Customer) => (
           {
             text: e.name,
@@ -91,8 +91,8 @@ export default function Maintenance() {
           }
       )),
       filterMultiple: false,
-      onFilter: (value:any, record:any) => record.customer.indexOf(value) === 0,
-      render: (_: any, record: any) => record.customer + " - " + record['customerEntity'].name
+      onFilter: (value:any, record:any) => record['partEntity']['vehicleEntity'].customer.indexOf(value) === 0,
+      render: (_: any, record: any) => record['partEntity']['vehicleEntity'].customer
     },
     {
       title: 'Vehicle',
@@ -106,7 +106,7 @@ export default function Maintenance() {
           }
       )),
       onFilter: (value:any, record:any) => record.vehicle.indexOf(value) === 0,
-      render: (_: any, record: any) => record.vehicle + " - " + record['vehicleEntity'].name
+      render: (_: any, record: any) => record['partEntity'].vehicle + " - " + record['partEntity']['vehicleEntity'].name
     },
     {
       title: 'Part',

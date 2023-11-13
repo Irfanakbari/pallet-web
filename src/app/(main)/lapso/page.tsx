@@ -2,26 +2,18 @@
 import React, { useEffect, useState } from "react";
 import { BiRefresh } from "react-icons/bi";
 import { Table } from "antd";
-import { useForm } from "react-hook-form";
 import useAxiosAuth from "@/lib/hooks/useAxiosAuth";
 import useTabStore, { TabStore } from "@/app/context/Tab/TabStore";
 import useStore from "@/app/context/Tab/useStore";
-import EditableCell from "@/app/components/Pages/Master/StockOpname/EditCell";
 import dayjs from "dayjs";
 
 export default function LapSo() {
-  const [data, setData] = useState<{dataStockOpname: any}>({
+  const [data, setData] = useState<{dataStockOpname: any[]}>({
     dataStockOpname: [],
   })
-  const [modal, setModal] = useState(false)
   const tabStore : TabStore| any = useStore(useTabStore, (state) => state)
   const [selectedRow, setSelectedRow] = useState<any>({})
   const [loading1, setLoading] = useState<boolean>(true)
-  const {
-    register,
-    handleSubmit,
-    reset
-  } = useForm()
   const axiosInstance = useAxiosAuth()
 
 
@@ -176,8 +168,7 @@ export default function LapSo() {
 
   const rowSelection = {
     onChange: (selectedRowKeys: any, selectedRows: any) => {
-      let allParts: any[];
-      allParts = [];
+      let allParts: any = [];
 
       selectedRows[0].data.forEach((departmentData: any) => {
         departmentData.data.forEach((partData: any) => {
@@ -216,16 +207,19 @@ export default function LapSo() {
                 ...rowSelection,
               }}
               bordered
-              components={{
-                body: {
-                  cell: EditableCell,
-                },
-              }}
+              // components={{
+              //   body: {
+              //     cell: EditableCell,
+              //   },
+              // }}
               scroll={{
                 y: "66vh"
               }}
               rowKey={'id_so'} columns={columns} dataSource={data.dataStockOpname} size={'small'}
               // rowClassName="editable-row"
+              expandable={{
+                expandedRowRender: (record) => expandedRowRender2(record),
+              }}
               pagination={{
                 hideOnSinglePage: true
               }}
